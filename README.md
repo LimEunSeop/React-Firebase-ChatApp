@@ -1,7 +1,7 @@
 # Firebase 와 연동한 SPA 채팅앱
 
 ## 사용 기술
-- FrontEnd : React + semantic-ui-react Framwork, SASS, Styled-Component
+- FrontEnd : React + semantic-ui-react Framwork, SASS, CSS-IN-JS
 - BackEnd : Firebase
 - MiddleWares : redux-devtools-extension, redux-logger
 - Modules : react-redux, react-router-dom, styled-components, mime-types, moment, uuid
