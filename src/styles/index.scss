@@ -1,0 +1,17 @@
+// CSS Grid 모듈 사용 설정
+/* autoprefixer grid: autoplace */
+
+// [PostCSS Normalize (normalize.css)]
+// ⚠️ package.json → Browserlist 설정에 따라 필요한 모듈만 자동으로 처리
+@import-normalize;
+
+// [Semantic UI CSS 모듈]
+// ⚠️ node_modules 에서 모듈을 로드할 경우 ~ 을 앞에 붙여야 함
+@import "~semantic-ui-css/semantic.min.css";
+
+// [사용자 정의 초기화 모듈] 
+// normalize.css 덮어쓰기
+@import "./custom-reset.scss";
+
+// [공통 스타일 모듈]
+@import "./common.scss";

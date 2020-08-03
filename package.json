@@ -1,0 +1,64 @@
+{
+  "name": "react-spa-redux-firebase-app",
+  "version": "1.0.4",
+  "description": "React 싱글 페이지 애플리케이션 with Firebase",
+  "private": true,
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "serve": "serve -s build",
+    "build-and-serve": "npm run build && npm run serve"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2% in KR",
+      "not dead",
+      "not op_mini all",
+      "ie > 10"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "@craco/craco": "^5.6.4",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "@testing-library/user-event": "^12.0.11",
+    "classnames": "^2.2.6",
+    "craco-alias": "^2.1.1",
+    "emoji-mart": "^3.0.0",
+    "firebase": "^7.16.1",
+    "md5": "^2.2.1",
+    "mime-types": "^2.1.27",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-avatar-editor": "^11.0.10",
+    "react-color": "^2.18.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "react-syntax-highlighter": "^12.2.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-form": "^8.3.6",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "revalidate": "^1.2.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.0.0",
+    "serve": "^11.3.2",
+    "styled-components": "^5.1.1",
+    "uuid": "^8.2.0"
+  }
+}
