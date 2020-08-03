@@ -1,4 +1,4 @@
-# Firebase 와 연동한 SPA 채팅앱 실습
+# Firebase 와 연동한 SPA 채팅앱
 
 ## 사용 기술
 - FrontEnd : React + semantic-ui-react Framwork, SASS
